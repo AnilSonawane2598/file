@@ -34,6 +34,6 @@ public class registration_page_class {
 	public void nac() {
 		newaccount.click();
 	}
-	//hi
+	
 
 }
