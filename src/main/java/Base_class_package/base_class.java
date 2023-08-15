@@ -46,9 +46,10 @@ public class base_class {
 	}
 
 	@AfterMethod
-	public void closebrowser() {
+	public void closebrowser() throws InterruptedException {
 		logger.info("finish");
 		driver.quit();
+		Thread.sleep(5000);
 
 	}
 
